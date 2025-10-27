@@ -92,28 +92,6 @@ The project demonstrates the versatility of ML algorithms and compares their per
 
 ---
 
-## **Repository Structure**
-Prediction-of-NSCLC-using-ML/
-│
-├── data/
-│ ├── raw/ # Original GEO .tsv files
-│ └── processed/ # Cleaned CSV files
-│
-├── notebooks/
-│ ├── 00_Data_Preparation.ipynb
-│ ├── 01_TSNE_Visualization.ipynb
-│ ├── 02_Model_Training.ipynb
-│ ├── 03_Results_Evaluation.ipynb
-│ └── 04_R_DGE_Analysis.Rmd
-│
-├── src/ # Python scripts for preprocessing & training
-├── R/ # R scripts for DGE analysis
-├── results/ # Plots and heatmaps
-├── models/ # Saved ML/DL models
-├── requirements.txt # Python dependencies
-├── README.md
-└── LICENSE
-
 References
 
 GEO Database – GSE81089
